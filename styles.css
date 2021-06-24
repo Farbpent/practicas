@@ -1,0 +1,77 @@
+body {
+	background: black;
+	font-family: "Audiowide", sans-serif;
+	font-size: 13px;
+}
+/* *{
+	border: 1px dashed red;
+	min-height: 10px;
+}*/
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+
+.postcard-header {
+	display: flex;
+}
+
+.postcard-header h1 {
+	margin: 0;
+	width: 85%;
+}
+
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+}
+
+.postcard-body {
+	display: flex;
+}
+
+.body-left p {
+	margin-top: 0px;
+}
+
+.body-right input {
+	border: none;
+	border-bottom: groove;
+}
+
+.body-left,
+.body-right {
+	padding: 2%;
+}
+
+body div .body-right input {
+	padding: 10px;
+}
+.fuente::placeholder {
+	font-family: "Audiowide", sans-serif;
+}
+
+.postcard-footer {
+	text-align: center;
+}
+
+.boton {
+	background-color: white;
+	border: none;
+	color: black;
+	padding: 8px 16px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	border: 2px solid darkgray;
+}
+
+.boton:hover {
+	background-color: darkgray;
+}
